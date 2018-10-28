@@ -7,14 +7,14 @@ header {
 
 header img:first-of-type {
     max-width: 17%;
-    padding: 1em;7
+    padding: 1em;
 }
 
 header img:last-of-type {
     display: flex;
     float: right;
     max-width: 4%;
-    margin-top: 1em
+    margin-top: 1em;
 }
 
 /*Navigatie vormgeving*/
@@ -119,7 +119,7 @@ a:link {
 @media (max-width: 64em) {
     header {
         margin-right: -10.6em;
-        padding: 1em
+        padding: 1em;
     }
     header img:first-of-type {
         max-width: 50%;
