@@ -1,0 +1,162 @@
+header {
+    background-color: #fff;
+    margin: -1em -0.5em 0em -1em;
+    box-shadow: 0 0.5125em 0.725em 0 rgba(0,0,0,.15);
+    position: relative;
+}
+
+header img:first-of-type {
+    max-width: 17%;
+    padding: 1em;7
+}
+
+header img:last-of-type {
+    display: flex;
+    float: right;
+    max-width: 4%;
+    margin-top: 1em
+}
+
+/*Navigatie vormgeving*/
+form {
+    background-image:url(/Images/8RcOxPm.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1em -0.5em -1em;
+}
+
+form p {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label[for=question] {
+    color: #00d66c;
+    font-family: nexa;
+    font-size: 2.25em;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+    padding-top: 1em;
+}
+
+input[type=text] {
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin-top: auto;
+    padding: 1em 1em;
+}
+
+input[placeholder] {
+    font-family: nexa light;
+    padding: 1em 9em 1em 9em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+ form button {
+    font-family: nexa;
+    padding: 1em 4em 1em 4em;
+    border-radius: 1.5em;
+    background-color: #ff3268;
+    box-shadow: inset 0 -0.1875em 0.0625em #ca2b55;
+    border-style: none;
+    color: #fff;
+    font-family: nexa;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-size: 1em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: -1em;
+    margin-bottom: auto;
+    border-bottom-style: solid;
+    margin-left: -1em;
+    margin-right: -0.5em;
+    border-bottom-color: #F8F7F7;
+}
+
+li a {
+    padding-top: 0.9em;
+    font-family: nexa;
+}
+
+li a:visited,
+a:link {
+    color: #00d66c;
+    text-decoration: none;
+}
+#stories h1 {
+    text-align: center;
+    margin-bottom: -1.2em;
+    padding-top: 1em;
+    color: white;
+    font-family: nexa;
+    background-color: #00D66C;
+    margin: 0em -0.5em 0em -1em;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -1em -0.5em 1em -1em;
+    background-color: #00D66C;
+}
+.top img {
+    max-height: 30em;
+    padding: 3em;
+}
+
+/*Breakpoint mobiel*/
+@media (max-width: 64em) {
+    header {
+        margin-right: -10.6em;
+        padding: 1em
+    }
+    header img:first-of-type {
+        max-width: 50%;
+    }
+    header img:last-of-type {
+        max-width: 8%;
+        margin-top: 2.2em;
+    }
+    form {
+        margin-right: -29.1em;
+    }
+    label[for=question] {
+        font-size: 5em;
+    }
+    input[type=text] {
+        border: 1px solid;
+        border-radius: 0.5em;
+        margin-top: auto;
+        padding: 1.5em 10em;
+    }
+    input[placeholder] {
+        font-size: 1.7em;
+    }
+    form button {
+        font-size: 2em;
+        margin-bottom: 3em;
+    }
+    li {
+        font-size: 2.5em;
+        margin-right: -11em;
+    }
+    .top {
+        margin: 0em -29.1em 1em -1em;
+    }
+    #stories h1 {
+        font-size: 4em;
+        padding-left: 1em;
+        margin: 0em -6.9em 0em -1em;
+    }
+}
