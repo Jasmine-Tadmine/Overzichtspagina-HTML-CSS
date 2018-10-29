@@ -1,0 +1,232 @@
+/*header*/
+header {
+    background-color: #fff;
+    margin: -0.5em -0.5em -0.5em -1em;
+    box-shadow: 0 0.5125em 0.725em 0 rgba(0,0,0,.15);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img:first-of-type {
+    max-height: 2.5em;
+    margin: 0.5em 0.5em 0.5em 1em;
+}
+
+header h1 {
+    font-family: nexa light;
+    font-size: 1.1em;
+    font-weight: 100;
+    color: #00D66C;
+    margin: 1em;
+}
+
+/*zoek form*/
+form {
+    background-image:url(/Images/8RcOxPm.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1em -0.5em -1em;
+    content: attr(image/png);
+}
+
+form p {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label[for=question] {
+    color: #00d66c;
+    font-family: nexa;
+    font-size: 2.25em;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+    padding-top: 1em;
+}
+
+input[type=text] {
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin-top: auto;
+    padding: 1em 1em;
+}
+
+input[placeholder] {
+    font-family: nexa light;
+    padding: 1em 9em 1em 9em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+form button {
+    font-family: nexa;
+    padding: 1em 4em 1em 4em;
+    border-radius: 1.5em;
+    background-color: #ff3268;
+    box-shadow: inset 0 -0.1875em 0.0625em #ca2b55;
+    border-style: none;
+    color: #fff;
+    font-family: nexa;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-size: 1em;
+}
+
+/*Navigatie*/
+ul {
+    display: grid;
+    list-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #F8F7F7;
+    margin: -1em -0.5em auto -1em;
+}
+
+li a {
+    padding-top: 0.9em;
+    font-family: nexa;
+}
+
+li a:visited,
+a:link {
+    color: #00d66c;
+    text-decoration: none;
+}
+#stories h3 {
+    color: white;
+    font-family: nexa;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: -0.5em 0em 1em -1em;
+    background-color: #00D66C;
+}
+
+.top img {
+    max-width: 50%;
+    margin-bottom: 1em;
+    justify-self: center
+}
+
+.title {
+    padding-top: 0.5em;
+    grid-column: 1/4;
+}
+
+#stories nav {
+    background-color: #F4E6D8;
+    margin:-1.0em 0em 1em -0.5em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 1em
+
+}
+
+#stories nav h3 {
+    padding-left: 1em;
+    padding-top: 0.5em;
+    font-family: nexa;
+    margin-bottom: auto;
+    grid-column: 1/1;
+    justify-self: start;
+}
+
+#stories nav button {
+    padding: 1em 4em 1em 4em;
+    border-radius: 4em;
+    background-color: #00D66C;
+    box-shadow: inset 0 -0.1875em 0.0625em #10874c;
+    border-style: none;
+    color: #fff;
+    margin: 0.5em;
+    font-family: nexa;
+}
+
+#stories nav button:nth-of-type(1) {
+    grid-column: 1/1;
+}
+
+.arrow down {
+    background-color: #F4E6D8;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+/* index/aanbevolen vormgeving */
+#stories h3  {
+    color: #2c2f86;
+    font-size: 1.6em;
+    margin-top: auto;
+    text-align: center;
+}
+
+#stories article {
+    background-color: #fff;
+    border: 0.5px solid;
+    border-radius: 1em;
+    margin: 1em 8em 1em 8em;
+    padding-bottom: 2.8em;
+    position: relative;
+    border-color: darkgray;
+}
+
+#stories article h3 {
+    margin-bottom: auto;
+    margin-left: -10em;
+    margin-top: 2.9em;
+    text-align: center;
+    font-family: nexa;
+}
+
+#stories p {
+    margin-bottom: auto;
+    margin-left: -15em;
+    margin-top: auto;
+    text-align: center;
+    font-family: nexa light;
+}
+
+#stories article img {
+    border-radius: 0em 1em 1em 0em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 21.5%;
+
+}
+
+#stories, #categories {
+    background-color:#fff;
+    margin-left: -0.5em;
+    padding-bottom: 2em;
+    margin-right: -0.39em
+}
+
+footer {
+    background-color: #f7f7f7;
+    margin: -1.3em -0.5em auto; -0.5em;
+}
+
+footer h4 {
+    color: #2c2f86;
+    text-align: center;
+    font-family: nexa;
+    padding-top: 0.5em;
+}
+footer>img {
+    max-width: 40em;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
