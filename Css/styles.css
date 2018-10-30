@@ -30,7 +30,7 @@ header div {
 
 /*zoek form*/
 nav form {
-    background-image:url(/Images/spring-break-banner.jpg);
+    background-image:url(../Images/spring-break-banner.jpg);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
