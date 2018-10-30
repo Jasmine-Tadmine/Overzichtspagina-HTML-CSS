@@ -224,6 +224,12 @@ footer>img {
 /*Alzheimer pagina*/
 #mobiel {
     visibility: hidden;
+    display: inline;
+}
+
+#stories {
+    display: block;
+    margin: 1em auto 0em auto;
 }
 
 /*Inlog pagina*/
