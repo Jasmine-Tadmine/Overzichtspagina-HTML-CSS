@@ -17,7 +17,7 @@
         <a href="inloggen.html"><h1>Inloggen</h1></a>
         </div>
     </header>
-    <nav>
+    <nav class="algemeen">
         <form method="get" action="zoek%20blij.html">
             <p>
                 <label for="question">Wat zoek je?</label>
@@ -35,8 +35,8 @@
         </ul>
     </nav>
     <section id=inloggen>
-        <form method="get" action="index%20account.html">
-            <fieldset class="acc">
+        <form class="acc" method="get" action="index%20account.html">
+            <fieldset>
                 <legend>log in bij Mijn Transavia</legend>
                 <label for="question">E-mailadres</label>
                 <input type="text" name="text" value="gebruiker@domein.nl">
@@ -46,8 +46,8 @@
             </fieldset>
         </form>
 
-        <form method="get" action="index%20account.html">
-            <fieldset class="boeking">
+        <form class="boeking" method="get" action="index%20account.html">
+            <fieldset>
                 <legend>Log in met je boekingsgegevens</legend>
                 <label for="question">Boekingsnummer</label>
                 <input type="text" name="text" placeholder="b.v. HB234">
